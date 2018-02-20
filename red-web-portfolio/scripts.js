@@ -7,7 +7,6 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 //FUNCTIONS
-
 //bottom right
 ctx.beginPath();
 ctx.arc(600,400,30,0,2*Math.PI);
@@ -23,6 +22,7 @@ ctx.beginPath();
 ctx.arc(350,120,30,0,2*Math.PI);
 ctx.stroke();
 
+//text
 ctx.font = "100% sans-serif";
 ctx.fillStyle = "red";
 ctx.textAlign = "center";
