@@ -11,7 +11,6 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 //FUNCTIONS
-
 //bottom right
 ctx.beginPath();
 ctx.arc(600,400,30,0,2*Math.PI);
